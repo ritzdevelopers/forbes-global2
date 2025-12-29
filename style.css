@@ -158,3 +158,66 @@ button {
   transform: translateZ(0);
 }
 
+
+
+/* Custom Scrollbar Design - Theme Color #CF4422 */
+/* Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CF4422;
+  border-radius: 10px;
+  border: 2px solid #f1f1f1;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #BF4423;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #a6381a;
+}
+
+::-webkit-scrollbar-corner {
+  background: #f1f1f1;
+}
+
+/* Firefox scrollbar styling */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #CF4422 #f1f1f1;
+}
+
+/* Smooth scrollbar animation */
+::-webkit-scrollbar-thumb {
+  transition: background 0.3s ease, border 0.3s ease;
+}
+
+/* Mobile scrollbar (thinner on mobile) */
+@media (max-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border: 1px solid #f1f1f1;
+  }
+}
+
+@media (min-width: 1400px) {
+    .xlW {
+        width: 1300px !important;
+        margin: 0 auto;
+    }
+}
