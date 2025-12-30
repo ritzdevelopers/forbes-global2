@@ -244,7 +244,7 @@ mobileMenu.addEventListener('touchmove', function(e) {
 // Slider data with Unsplash images
 const sliderData = [
   {
-    image: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1920&h=1080&fit=crop',
+    image: '/img/s1/s1-img.png',
     subtitle: 'Forbes Global Properties',
     title: 'A Global Standard. Now in India.',
     description: 'Enjoy Mesmerizing Views From Almost Every Apartment',
